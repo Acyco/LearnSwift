@@ -11,7 +11,7 @@ enum SomeEnumeration {
 
 enum CompassPoint {
     case north
-    case souoth
+    case south
     case east
     case west
 }
@@ -30,7 +30,7 @@ dirctionToHead = .west
 // dirctionToHead的类型是已知的， 所以你当再次设定它的值可以不用写类型，这样使得在操作确定类型的枚举时让代码显得非常易读
 
 // 使用Switch语句来匹配枚举值
-dirctionToHead = .souoth
+dirctionToHead = .south
 switch dirctionToHead {
 case.north:
     print("Lots of planets have a north")
